@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1543620817628683993}
   - component: {fileID: 1543620817628683558}
   - component: {fileID: 1543620817628683559}
+  - component: {fileID: 383299453689105306}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_Size: {x: 25.302057, y: 13.799999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1543620817628683992
@@ -106,7 +107,8 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_GroundCheck: {fileID: 1543620819661764719}
+  m_GroundCheck1: {fileID: 0}
+  m_GroundCheck2: {fileID: 0}
   m_CeilingCheck: {fileID: 1543620817709838492}
   m_CrouchDisableCollider: {fileID: 0}
   OnLandEvent:
@@ -176,6 +178,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1543620817628683992}
   runSpeed: 40
+--- !u!95 &383299453689105306
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543620817628683997}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fbfaa1cb17ecd404ba830879c1cd32d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1543620817709838495
 GameObject:
   m_ObjectHideFlags: 0
