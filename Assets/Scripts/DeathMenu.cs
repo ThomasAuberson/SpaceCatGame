@@ -19,6 +19,7 @@ public class DeathMenu : MonoBehaviour
 
     public void RestartGame() {
         Debug.Log("Restart Game");
+        Databank.Reset();
         SceneManager.LoadSceneAsync("MainScene");
     }
 

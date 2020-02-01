@@ -25,7 +25,7 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GenerateLevel(0, 20);
+        GenerateLevel(Databank.levelNumber, 20);
     }
 
 
@@ -53,12 +53,11 @@ public class LevelController : MonoBehaviour
             y += levelSection.deltaY;
             x += levelSection.deltaX;
         }
-
-
     }
 
-    public void RepairPartCollected() {
-        Debug.Log("Repair Part Colelcted!");
+    public void StartMinigame() {
+        Debug.Log("RepairMinigameScene");
+        SceneManager.LoadSceneAsync("RepairMinigameScene");
     }
 
     public void EndGameDeath() {

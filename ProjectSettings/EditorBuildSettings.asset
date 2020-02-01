@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
     guid: 265c9118062cdd94da0d84f67ca2ed83
+  - enabled: 1
+    path: Assets/Scenes/RepairMinigameScene.unity
+    guid: d0c42ef6d5290ea40a7ac255998d75a5
   m_configObjects: {}
