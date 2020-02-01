@@ -18,6 +18,7 @@ public class LevelController : MonoBehaviour
         public int maxDifficulty;
     }
 
+    public LevelSection[] finalSections;
     public LevelSection[] levelSections;
     public int startSectionIndex = 0;
 
@@ -25,7 +26,7 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GenerateLevel(Databank.levelNumber, 20);
+        GenerateLevel(Databank.levelNumber, 10);
     }
 
 
@@ -52,6 +53,11 @@ public class LevelController : MonoBehaviour
             Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
             y += levelSection.deltaY;
             x += levelSection.deltaX;
+        }
+        // Final Section
+        {
+            int rand = Random.Range(0, finalSections.Length);
+            Instantiate(finalSections[rand].prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
         }
     }
 
