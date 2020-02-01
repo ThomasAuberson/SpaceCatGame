@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191219929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.7, y: -4.94, z: 0}
+  m_LocalPosition: {x: 4.7, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1971182235}
@@ -267,7 +267,7 @@ PrefabInstance:
     - target: {fileID: 1543620817628683992, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_JumpForce
-      value: 10000
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 1543620817628683992, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
@@ -277,7 +277,7 @@ PrefabInstance:
     - target: {fileID: 1543620817628683992, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_MovementSmoothing
-      value: 0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1543620817628683992, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
@@ -292,12 +292,17 @@ PrefabInstance:
     - target: {fileID: 1543620817628683993, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_GravityScale
-      value: 60
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1543620817628683993, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1543620817628683993, guid: 98ea3c688d01e3d40999e3e53d4126b6,
+        type: 3}
+      propertyPath: m_Mass
+      value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 1543620817628683994, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
@@ -388,7 +393,7 @@ PrefabInstance:
     - target: {fileID: 1543620817628683997, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_Name
-      value: Player2
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1543620817628683997, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
@@ -408,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 1543620819661764719, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.94
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 1543620819661764719, guid: 98ea3c688d01e3d40999e3e53d4126b6,
         type: 3}
@@ -609,7 +614,7 @@ MonoBehaviour:
   - prefab: {fileID: 789671233682403685, guid: a28e9101478edca40a7c92993fa0daab, type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 2
+    frequency: 4
     minSpacing: 0
     minDifficulty: 0
     maxDifficulty: 0
@@ -617,7 +622,7 @@ MonoBehaviour:
       type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 2
+    frequency: 4
     minSpacing: 0
     minDifficulty: 0
     maxDifficulty: 0
@@ -748,8 +753,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.6624988, y: -1.675941}
-  m_Size: {x: 9.740365, y: 6.4768953}
+  m_Offset: {x: 1.1415889, y: -1.2136202}
+  m_Size: {x: 10.263094, y: 5.8491144}
   m_Direction: 1
 --- !u!4 &1971182235 stripped
 Transform:
@@ -767,7 +772,7 @@ Animator:
   m_GameObject: {fileID: 1971182229}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1da39a481ea71c49aa520492802ad42, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
