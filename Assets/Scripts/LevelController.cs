@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class LevelController : MonoBehaviour
         GenerateLevel(0, 20);
     }
 
+
+
     public void GenerateLevel(int difficulty, int sections) {
         List<LevelSection> levelDraw = new List<LevelSection>();
         foreach (LevelSection levelSection in levelSections) {
@@ -50,5 +53,16 @@ public class LevelController : MonoBehaviour
             y += levelSection.deltaY;
             x += levelSection.deltaX;
         }
+
+
+    }
+
+    public void RepairPartCollected() {
+        Debug.Log("Repair Part Colelcted!");
+    }
+
+    public void EndGameDeath() {
+        Debug.Log("Player Died");
+        SceneManager.LoadSceneAsync("DeathScreen");
     }
 }
