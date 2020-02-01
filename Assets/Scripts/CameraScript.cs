@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
+    public GameObject player;
+    public Vector3 offset;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,6 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         transform.position = new Vector3 (player.transform.position.x + offset.x, player.transform.position.y + offset.y, offset.z); // Camera follows the player with specified offset position
     }
 }
