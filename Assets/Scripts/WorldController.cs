@@ -7,6 +7,8 @@ public class WorldController : MonoBehaviour
     public int TallTileHeight = 25;
     public int StartOffsetX = 100;
     public GameObject TallDirtTilePrefab;
+    public GameObject PlayerCharacter;
+    
 
 
 
@@ -14,13 +16,13 @@ public class WorldController : MonoBehaviour
     void Start()
     {
         int[] elevationMap = GenerateElevationMap(10000,100);
-
-
         int yOffSet = elevationMap[0];
 
         for (int x =  0; x < elevationMap.Length; x++) {            
             Instantiate(TallDirtTilePrefab, new Vector3(x, elevationMap[x], 0), Quaternion.identity, transform);            
         }
+
+        PlayerCharacter.transform.localPosition = new Vector3(StartOffsetX, elevationMap[StartOffsetX] + TallTileHeight, 0);
     }
 
     private int[] GenerateElevationMap(int length, int yMax) {
