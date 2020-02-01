@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: e58d5c76699be53478b11a541d9d4a10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4615653718629999652
+    second: CatWalk_0
+  - first:
+      213: -1544035694391271206
+    second: CatWalk_1
+  - first:
+      213: 5221702539793027775
+    second: CatWalk_2
+  - first:
+      213: 449687779201606309
+    second: CatWalk_3
+  - first:
+      213: -3248754182518766891
+    second: CatWalk_4
+  - first:
+      213: 6186262344680505039
+    second: CatWalk_5
+  - first:
+      213: -2159646406735908339
+    second: CatWalk_6
+  - first:
+      213: -1150645911154522217
+    second: CatWalk_7
+  - first:
+      213: 5801647092878424577
+    second: CatWalk_8
+  - first:
+      213: 4979531242225188032
+    second: CatWalk_0
+  - first:
+      213: 1093825294169882031
+    second: CatWalk_1
+  - first:
+      213: 7368821541698668694
+    second: CatWalk_2
+  - first:
+      213: 6990030509569491727
+    second: CatWalk_3
+  - first:
+      213: 8725288299169108691
+    second: CatWalk_4
+  - first:
+      213: -2018970269238075151
+    second: CatWalk_5
+  - first:
+      213: 982935873118286804
+    second: CatWalk_6
+  - first:
+      213: 8451337356522854181
+    second: CatWalk_7
+  - first:
+      213: 8775809357585336666
+    second: CatWalk_8
+  - first:
+      213: -7787088022117965694
+    second: CatWalk_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1447
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccbac83849da1540800000000000000
+      internalID: 4979531242225188032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_1
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad35594f4c0e2f00800000000000000
+      internalID: 1093825294169882031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_2
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69802368620534660800000000000000
+      internalID: 7368821541698668694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_3
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f034804b6b3910160800000000000000
+      internalID: 6990030509569491727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_4
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2d8d2ca73761970800000000000000
+      internalID: 8725288299169108691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_5
+      rect:
+        serializedVersion: 2
+        x: 6510
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06df1bc3d2bf3e0800000000000000
+      internalID: -2018970269238075151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_6
+      rect:
+        serializedVersion: 2
+        x: 7812
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3343208f614ad00800000000000000
+      internalID: 982935873118286804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_7
+      rect:
+        serializedVersion: 2
+        x: 9114
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52798847c8e294570800000000000000
+      internalID: 8451337356522854181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_8
+      rect:
+        serializedVersion: 2
+        x: 10416
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a594c6f4d10f9c970800000000000000
+      internalID: 8775809357585336666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatWalk_9
+      rect:
+        serializedVersion: 2
+        x: 11718
+        y: 0
+        width: 1302
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280a5fe93b4bee390800000000000000
+      internalID: -7787088022117965694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

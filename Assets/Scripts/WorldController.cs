@@ -25,6 +25,10 @@ public class WorldController : MonoBehaviour
         PlayerCharacter.transform.localPosition = new Vector3(StartOffsetX, elevationMap[StartOffsetX] + TallTileHeight, 0);
     }
 
+    public void GenerateLevel() {
+
+    }
+
     private int[] GenerateElevationMap(int length, int yMax) {
         float seed = Random.Range(0f, 20000f);
 
@@ -34,14 +38,14 @@ public class WorldController : MonoBehaviour
             float y =
                 //Random.Range(0f, 2f) +
                 (Mathf.PerlinNoise(x * 0.05f, seed) * 10) +
-                (Mathf.PerlinNoise(x * 0.005f, seed) * 100) +
+                (Mathf.PerlinNoise(x * 0.005f, seed) * yMax) +
                 //(Mathf.PerlinNoise(x * 0.0005f, seed) * 1000);
                 - yOffset;
             if (x == 0){
                 yOffset = y;
                 y = 0f;
             }
-            elevationMap[x] = (int)y- TallTileHeight;
+            elevationMap[x] = (int)y - TallTileHeight;
         }
         return elevationMap;
     }
