@@ -63,6 +63,7 @@ public class RepairPart : MonoBehaviour
                 //Destroy(gameObject);
                 GetComponentInChildren<SpriteRenderer>().enabled = false;
                 Debug.Log("Found Part");
+                levelController.displayMsg("Part found!");
                 pm.enabled = false;
                 triggered = true;
             }

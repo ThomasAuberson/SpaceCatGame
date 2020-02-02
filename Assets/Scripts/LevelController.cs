@@ -1,6 +1,7 @@
 ﻿
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,15 +22,31 @@ public class LevelController : MonoBehaviour
     public LevelSection[] finalSections;
     public LevelSection[] levelSections;
     private int startSectionIndex = 0;
+    public TextMeshProUGUI messageText;
+    private float textDelay = 0f;
 
 
     // Start is called before the first frame update
     void Start()
     {
         GenerateLevel(Databank.levelNumber, Databank.levelSize);
+        displayMsg("Search for parts to repair your ship!\nParts found: " + Databank.repairProgress);
+
     }
 
+    private void Update() {
+        if (textDelay > 0) {
+            textDelay -= Time.deltaTime;
+            if (textDelay <= 0) {
+                messageText.text = "";
+            }
+        }
+    }
 
+    public void displayMsg(string msg) {
+        messageText.text = msg;
+        textDelay = 3.0f;
+    }
 
     public void GenerateLevel(int difficulty, int sections) {
         Debug.Log("Generate Level " + difficulty);
