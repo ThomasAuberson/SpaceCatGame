@@ -1014,7 +1014,31 @@ MonoBehaviour:
     minSpacing: 0
     minDifficulty: 2
     maxDifficulty: 0
-  - prefab: {fileID: 3607270332939993177, guid: 3625b505e61f3bf42a3cbee5736dd749,
+  - prefab: {fileID: 1412798271150630823, guid: 22dcac3bdbaa766488f15ba8a648c8ac,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 3
+    maxDifficulty: 0
+  - prefab: {fileID: 6982533928645692618, guid: 48d7bcee9aa939743bb189e493a8d85d,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 1
+    maxDifficulty: 3
+  - prefab: {fileID: 3846705191686795709, guid: 178bc535a53600248b8dfdec000e9107,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 3
+    maxDifficulty: 0
+  - prefab: {fileID: 6850938549227380202, guid: 5c6284291a9425642b4f05344efeda37,
       type: 3}
     deltaY: 0
     deltaX: 200
@@ -1057,6 +1081,52 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1373681879}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1961056958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961056959}
+  - component: {fileID: 1961056960}
+  m_Layer: 0
+  m_Name: Asteroid Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1961056959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961056958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100, y: 100, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1961056960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961056958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 015cb6c9011560048b1297537b48251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 7109131552093839327, guid: 3687f00ba16c6c046bdd8cf00962ef97,
+    type: 3}
+  spawnDelay: 5
 --- !u!1 &1971182229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1543620817628683997, guid: 98ea3c688d01e3d40999e3e53d4126b6,
