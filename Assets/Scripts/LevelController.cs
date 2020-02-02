@@ -44,15 +44,16 @@ public class LevelController : MonoBehaviour
             }
         }
 
-        int x = 0;
+        int x = -100;
         int y = 0;
         for(int i = 0; i < sections; i++) {
             int rand = (i == 0)? startSectionIndex : Random.Range(0, levelDraw.Count);
             LevelSection levelSection = levelDraw[rand];
 
+            x += levelSection.deltaX / 2;
             Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
             y += levelSection.deltaY;
-            x += levelSection.deltaX;
+            x += levelSection.deltaX / 2;
         }
         // Final Section
         {

@@ -550,14 +550,14 @@ MonoBehaviour:
       type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 2
+    frequency: 10
     minSpacing: 0
     minDifficulty: 0
     maxDifficulty: 0
   - prefab: {fileID: 789671233682403685, guid: a28e9101478edca40a7c92993fa0daab, type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 4
+    frequency: 10
     minSpacing: 0
     minDifficulty: 0
     maxDifficulty: 0
@@ -565,7 +565,55 @@ MonoBehaviour:
       type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 4
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 8424131744050681039, guid: 532b20957a3294545b98128e7272905f,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 6982445866233190902, guid: 96087c23f0795ce438d9fab739ab8d22,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 1476457072304895309, guid: 2141fee428d2a5c42aeab5328db0c051,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 6564128115851154590, guid: ab12bb9acd5789c439190a2484feef70,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 1197230417510335295, guid: 5843564ebaee01540a73489baa855552,
+      type: 3}
+    deltaY: 0
+    deltaX: 200
+    frequency: 10
+    minSpacing: 0
+    minDifficulty: 0
+    maxDifficulty: 0
+  - prefab: {fileID: 1767525655721385022, guid: 152cec8e3e4f42949b17a6cbf707d3cb,
+      type: 3}
+    deltaY: 0
+    deltaX: 300
+    frequency: 10
     minSpacing: 0
     minDifficulty: 0
     maxDifficulty: 0

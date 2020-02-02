@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StationaryEnemy : MonoBehaviour
+public class EnemyBite : MonoBehaviour
 {
     private LevelController levelController;
 
     private bool triggered = false;
-    private float timeToDeath = 2f;
+    private float timeToDeath = 1f;
 
     // Start is called before the first frame update
     void Start() {
