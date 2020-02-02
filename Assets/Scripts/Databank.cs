@@ -16,6 +16,7 @@ public static class Databank
         levelNumber = 1;
         repairProgress = 0;
         latestPartFound = 0;
+        levelSize = 6;
     }
 
     public static void IncrementLevel() {

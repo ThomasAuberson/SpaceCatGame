@@ -1034,7 +1034,7 @@ MonoBehaviour:
       type: 3}
     deltaY: 0
     deltaX: 200
-    frequency: 100
+    frequency: 10
     minSpacing: 0
     minDifficulty: 2
     maxDifficulty: 0
