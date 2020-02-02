@@ -1,6 +1,7 @@
 ﻿
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,18 +21,35 @@ public class LevelController : MonoBehaviour
 
     public LevelSection[] finalSections;
     public LevelSection[] levelSections;
-    public int startSectionIndex = 0;
+    private int startSectionIndex = 0;
+    public TextMeshProUGUI messageText;
+    private float textDelay = 0f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        GenerateLevel(Databank.levelNumber, 10);
+        GenerateLevel(Databank.levelNumber, Databank.levelSize);
+        displayMsg("Search for parts to repair your ship!\nParts found: " + Databank.repairProgress);
+
     }
 
+    private void Update() {
+        if (textDelay > 0) {
+            textDelay -= Time.deltaTime;
+            if (textDelay <= 0) {
+                messageText.text = "";
+            }
+        }
+    }
 
+    public void displayMsg(string msg) {
+        messageText.text = msg;
+        textDelay = 3.0f;
+    }
 
     public void GenerateLevel(int difficulty, int sections) {
+        Debug.Log("Generate Level " + difficulty);
         List<LevelSection> levelDraw = new List<LevelSection>();
         foreach (LevelSection levelSection in levelSections) {
             if(levelSection.minDifficulty == 0 || difficulty >= levelSection.minDifficulty) {
@@ -44,20 +62,21 @@ public class LevelController : MonoBehaviour
             }
         }
 
-        int x = 0;
+        int x = -100;
         int y = 0;
         for(int i = 0; i < sections; i++) {
-            int rand = (i == 0)? startSectionIndex : Random.Range(0, levelDraw.Count);
-            LevelSection levelSection = levelDraw[rand];
+            LevelSection levelSection = (i == 0) ? levelSections[startSectionIndex] :levelDraw[Random.Range(0, levelDraw.Count)];
 
+            x += levelSection.deltaX / 2;
             Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
             y += levelSection.deltaY;
-            x += levelSection.deltaX;
+            x += levelSection.deltaX / 2;
         }
         // Final Section
         {
-            int rand = Random.Range(0, finalSections.Length);
-            Instantiate(finalSections[rand].prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
+            LevelSection levelSection = finalSections[Random.Range(0, finalSections.Length)];
+            x += levelSection.deltaX / 2;
+            Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
         }
     }
 
