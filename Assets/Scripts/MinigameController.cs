@@ -36,14 +36,14 @@ public class MinigameController : MonoBehaviour
         Debug.Log("Minigame Success");
         resultText.text = "Success!";
         Databank.repairProgress++;
-        Databank.levelNumber++;
+        Databank.IncrementLevel();
         triggered = true;
     }
 
     public void MinigameFail() {
         Debug.Log("Minigame Fail");
         resultText.text = "Failed... part lost :(";
-        Databank.levelNumber++;
+        Databank.IncrementLevel();
         triggered = true;
     }
 }

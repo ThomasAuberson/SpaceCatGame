@@ -8,7 +8,7 @@ public static class Databank
     public const int LEVEL_SIZE_INCREMENT = 3;
 
     public static int levelNumber = 1;
-    public static int levelSize = 10;
+    public static int levelSize = 6;
     public static int repairProgress = 0;
     public static int latestPartFound = 0; 
 

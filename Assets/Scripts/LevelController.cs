@@ -26,12 +26,13 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GenerateLevel(Databank.levelNumber, 10);
+        GenerateLevel(Databank.levelNumber, Databank.levelSize);
     }
 
 
 
     public void GenerateLevel(int difficulty, int sections) {
+        Debug.Log("Generate Level " + difficulty);
         List<LevelSection> levelDraw = new List<LevelSection>();
         foreach (LevelSection levelSection in levelSections) {
             if(levelSection.minDifficulty == 0 || difficulty >= levelSection.minDifficulty) {
@@ -58,7 +59,9 @@ public class LevelController : MonoBehaviour
         // Final Section
         {
             int rand = Random.Range(0, finalSections.Length);
-            Instantiate(finalSections[rand].prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
+            LevelSection levelSection = finalSections[rand];
+            x += levelSection.deltaX / 2;
+            Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
         }
     }
 
