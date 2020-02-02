@@ -1,13 +1,52 @@
 fileFormatVersion: 2
-guid: 509a853222117384b8512dcec05a0923
+guid: 76d337c46e0187341a1ea084ef0942e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8154490377495175974
-    second: AsteroidAnimated_0
+      213: -4669963774723999869
+    second: AsteroidAnimated - Copy_0
   - first:
-      213: 5570138245391016096
-    second: AsteroidAnimated_1
+      213: 6509002031268992390
+    second: AsteroidAnimated - Copy_1
+  - first:
+      213: -1368501645816720029
+    second: AsteroidAnimated - Copy_2
+  - first:
+      213: 3308131846665668290
+    second: AsteroidAnimated - Copy_3
+  - first:
+      213: -3956748219917123759
+    second: AsteroidAnimated - Copy_4
+  - first:
+      213: 4190004047839060876
+    second: AsteroidAnimated - Copy_5
+  - first:
+      213: -5202575399792055268
+    second: AsteroidAnimated - Copy_6
+  - first:
+      213: 5478316688511527798
+    second: AsteroidAnimated - Copy_7
+  - first:
+      213: 1458553058273388170
+    second: AsteroidAnimated - Copy_8
+  - first:
+      213: 3191019742492932872
+    second: AsteroidAnimated - Copy_9
+  - first:
+      213: 3781571439925900599
+    second: AsteroidAnimated - Copy_10
+  - first:
+      213: 6342980215725808015
+    second: AsteroidAnimated - Copy_11
+  - first:
+      213: 4418160175775440852
+    second: AsteroidAnimated - Copy_12
+  - first:
+      213: 5854799090008776414
+    second: AsteroidAnimated - Copy_13
+  - first:
+      213: 1785210802499742759
+    second: AsteroidAnimated - Copy_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -46,12 +85,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 14
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -92,28 +131,28 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AsteroidAnimated_0
+      name: AsteroidAnimated - Copy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 334
+        width: 333.5
         height: 332
       alignment: 9
-      pivot: {x: 0.494133, y: 0.51475585}
+      pivot: {x: 0.48824844, y: 0.52065825}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623e0f24bc19a2170800000000000000
-      internalID: 8154490377495175974
+      spriteID: 38732ad70b4f03fb0800000000000000
+      internalID: -4669963774723999869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AsteroidAnimated_1
+      name: AsteroidAnimated - Copy_1
       rect:
         serializedVersion: 2
         x: 333
@@ -121,14 +160,14 @@ TextureImporter:
         width: 333.5
         height: 332
       alignment: 9
-      pivot: {x: 0.5543511, y: 0.5103291}
+      pivot: {x: 0.54259944, y: 0.52213377}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0695ae83b1d4d40800000000000000
-      internalID: 5570138245391016096
+      spriteID: 685951c7cde945a50800000000000000
+      internalID: 6509002031268992390
       vertices: []
       indices: 
       edges: []
