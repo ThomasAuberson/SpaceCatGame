@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: c6ffff02b4598c14c9710b58a65bd83d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6132515856685634846
+    second: Enemy2_Move_0
+  - first:
+      213: -215672872804641063
+    second: Enemy2_Move_1
+  - first:
+      213: -3344029497630739492
+    second: Enemy2_Move_2
+  - first:
+      213: -5161560116130406079
+    second: Enemy2_Move_3
+  - first:
+      213: -2048999953980877048
+    second: Enemy2_Move_4
+  - first:
+      213: -7949741131674775126
+    second: Enemy2_Move_5
+  - first:
+      213: 8868923156056769477
+    second: Enemy2_Move_6
+  - first:
+      213: -5445810175643481025
+    second: Enemy2_Move_7
+  - first:
+      213: 220030996806308637
+    second: Enemy2_Move_8
+  - first:
+      213: -1209549320894447592
+    second: Enemy2_Move_9
+  - first:
+      213: 5642342165136856685
+    second: Enemy2_Move_10
+  - first:
+      213: -4283983570170221819
+    second: Enemy2_Move_11
+  - first:
+      213: -6680952783182518337
+    second: Enemy2_Move_12
+  - first:
+      213: 5111759820686446877
+    second: Enemy2_Move_13
+  - first:
+      213: 2308537067981230662
+    second: Enemy2_Move_14
+  - first:
+      213: -5867805900530930987
+    second: Enemy2_Move_15
+  - first:
+      213: 2493137849984528289
+    second: Enemy2_Move_16
+  - first:
+      213: 3397655721681157047
+    second: Enemy2_Move_17
+  - first:
+      213: -3593784290011920651
+    second: Enemy2_Move_18
+  - first:
+      213: -5056683212384129992
+    second: Enemy2_Move_19
+  - first:
+      213: -3920253723617089786
+    second: Enemy2_Move_20
+  - first:
+      213: 2791258095056057213
+    second: Enemy2_Move_21
+  - first:
+      213: 856811699254383316
+    second: Enemy2_Move_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy2_Move_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 699
+        width: 662
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6dced15de4eaa0800000000000000
+      internalID: -6132515856685634846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2_Move_1
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 699
+        width: 663
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69ac43aa6c10df0800000000000000
+      internalID: -215672872804641063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2_Move_2
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 699
+        width: 662
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ba4ba3ee9791d0800000000000000
+      internalID: -3344029497630739492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2_Move_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 662
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1412937eb647e58b0800000000000000
+      internalID: -5161560116130406079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2_Move_4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 4
+        width: 663
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8079d2ed56d7093e0800000000000000
+      internalID: -2048999953980877048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy2_Move_5
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 4
+        width: 662
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1963e6f88dca190800000000000000
+      internalID: -7949741131674775126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
