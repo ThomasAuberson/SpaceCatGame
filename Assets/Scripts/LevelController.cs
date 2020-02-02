@@ -20,7 +20,7 @@ public class LevelController : MonoBehaviour
 
     public LevelSection[] finalSections;
     public LevelSection[] levelSections;
-    public int startSectionIndex = 0;
+    private int startSectionIndex = 0;
 
 
     // Start is called before the first frame update
@@ -48,8 +48,7 @@ public class LevelController : MonoBehaviour
         int x = -100;
         int y = 0;
         for(int i = 0; i < sections; i++) {
-            int rand = (i == 0)? startSectionIndex : Random.Range(0, levelDraw.Count);
-            LevelSection levelSection = levelDraw[rand];
+            LevelSection levelSection = (i == 0) ? levelSections[startSectionIndex] :levelDraw[Random.Range(0, levelDraw.Count)];
 
             x += levelSection.deltaX / 2;
             Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
@@ -58,8 +57,7 @@ public class LevelController : MonoBehaviour
         }
         // Final Section
         {
-            int rand = Random.Range(0, finalSections.Length);
-            LevelSection levelSection = finalSections[rand];
+            LevelSection levelSection = finalSections[Random.Range(0, finalSections.Length)];
             x += levelSection.deltaX / 2;
             Instantiate(levelSection.prefab, new Vector3(x, y, 0), Quaternion.identity, transform);
         }
