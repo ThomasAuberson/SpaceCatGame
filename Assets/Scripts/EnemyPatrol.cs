@@ -11,7 +11,7 @@ public class EnemyPatrol : MonoBehaviour {
 
     void Update() {
         transform.Translate(Time.deltaTime * (movingR?speed:-speed), 0, 0);        
-        if (Vector3.Distance(transform.position, (movingR ? RightBuoy.position : LeftBuoy.position)) < 0.5f) {
+        if (Vector3.Distance(transform.position, (movingR ? RightBuoy.position : LeftBuoy.position)) < 5f) {
             movingR = !movingR;            
             transform.localScale = new Vector3(transform.localScale.x * -1.0f, transform.localScale.y, transform.localScale.z);
         }
